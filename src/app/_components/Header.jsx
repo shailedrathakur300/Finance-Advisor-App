@@ -4,7 +4,7 @@ import React, { use } from "react";
 import Image from "next/image";
 import { Button } from "../../components/ui/button";
 import { useUser, UserButton } from "@clerk/nextjs";
-import chartDonutSVG from "../../public/chart-donut.svg";
+import chartDonutSVG from "/public/chart-donut.svg";
 import Link from "next/link";
 
 export default function Header() {

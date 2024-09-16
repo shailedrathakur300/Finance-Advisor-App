@@ -10,16 +10,16 @@ export default function Hero() {
           titleComponent={
             <>
               <h1 className="text-4xl font-semibold text-black dark:text-white">
-                Unleash the power of <br />
-                <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                  Scroll Animations
+                Manage your Money with AI-Driven Personal <br />
+                <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none text-blue-500">
+                  Finanace Advisor
                 </span>
               </h1>
             </>
           }
         >
           <Image
-            src="/dashboard.png"
+            src={`/dashboard.png`}
             alt="hero"
             height={720}
             width={1400}
